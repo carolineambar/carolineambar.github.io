@@ -1,0 +1,7 @@
+@import "./reset.css";
+@import "./variables.css";
+
+body {
+    background-color: var(--pink);
+    font-family: var(--primary-font);
+}
