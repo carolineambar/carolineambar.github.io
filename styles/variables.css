@@ -3,6 +3,7 @@
     --pink: #DA07AB;
     --light-pink: #EE8DD9;
     --black: #000;
+    --black-transparent: rgba(0, 0, 0, .25);
     --white: #fff;
     --primary-font: 'PT Sans';
 }
