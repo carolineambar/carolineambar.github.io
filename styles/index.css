@@ -29,21 +29,32 @@ body {
     padding: 22px;
     text-align: center;
 }
-.container{
+.container {
     margin: 15px 35px;
 }
-.subtitle{
+.subtitle {
     background-color: var(--blue);
     border-radius: 9px;
     color: var(--pink);
+    display: inline-block;
     font-size: 20px;
+    margin-bottom: 15px;
     padding: 10px;
     text-align: left;
-    display: inline-block;
-    margin-bottom: 15px;
 }
-.text{
+.text {
     font-size: 15px;
-    text-align: justify;
     margin-bottom: 15px;
+    text-align: justify;
+}
+.topics {
+    font-size: 15px;
+}
+.item {
+    color: var(--black);
+    cursor: pointer;
+    margin-bottom: 9px;
+}
+.link {
+    color: inherit;
 }
