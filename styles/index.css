@@ -47,3 +47,16 @@ body {
     text-align: justify;
     margin-bottom: 15px;
 }
+.topics{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.item {
+    margin-bottom: 9px;
+    color: var(--black);
+    cursor: pointer;
+}
+.link {
+    color: inherit;
+}
