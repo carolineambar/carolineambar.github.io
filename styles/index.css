@@ -58,3 +58,22 @@ body {
 .link {
     color: inherit;
 }
+.button {
+    background-color: var(--light-pink);
+    border-radius: 18px;
+    border: 1px solid var(--blue);
+    box-shadow: 0 4px 4px var(--black-transparent);
+    color: var(--white);
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 15px auto;
+    max-width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity .2s;
+}
+.button:hover {
+    opacity: .8;
+}
